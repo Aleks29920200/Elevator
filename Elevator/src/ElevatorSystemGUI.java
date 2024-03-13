@@ -9,6 +9,7 @@ class ElevatorSystemGUI extends JFrame {
     public static final int FLOOR_COUNT = 4;
 
     private JTextArea logArea;
+
     private Elevator elevator;
     private List<Agent> agents;
     private ElevatorPanel elevatorPanel;
